@@ -14,12 +14,16 @@ Usage:
 import json
 import sys
 import os
+import ssl
 import argparse
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+# macOS fix: bypass SSL certificate verification
+ssl._create_default_https_context = ssl._create_unverified_context
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
