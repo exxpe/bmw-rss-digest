@@ -1,0 +1,39 @@
+{
+  "feeds": [
+    {
+      "url": "https://f10.5post.com/forums/external.php?type=RSS2&forumids=463",
+      "name": "5post F10 - DIY & Coding"
+    },
+    {
+      "url": "https://f20.1addicts.com/forums/external.php?type=RSS2&forumids=428",
+      "name": "1addicts F20 - DIY & Coding"
+    }
+  ],
+  "keywords": [
+    "coding",
+    "programming",
+    "FSC",
+    "SFA",
+    "DME",
+    "ECU",
+    "tuning",
+    "WinOLS",
+    "ISTA",
+    "E-Sys",
+    "eSys",
+    "flash",
+    "retrofit",
+    "CAFD",
+    "checksum",
+    "remap",
+    "chip",
+    "BimmerCode",
+    "psdzdata",
+    "INPA",
+    "Tool32",
+    "NCS",
+    "OBD"
+  ],
+  "output_dir": "~/bmw_rss_digests",
+  "max_age_days": 7
+}
