@@ -1,0 +1,6 @@
+bmw_rss.log
+*.pyc
+__pycache__/
+bmw_rss_digests/
+*.md
+!README.md
